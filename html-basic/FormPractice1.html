@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表單</title>
+</head>
+<body>
+	<!-- 
+		form : 
+			name : 表單名稱
+			method : POST/GET
+			action : 處理
+	 -->
+	 <form name="practice" action="http://www.google.com">
+	 	<!-- 
+			type : 類型
+			plachehokder : 提示文字
+			value : 輸入框的內容
+	 	 -->
+	 	<p>
+	 		帳號:<input type="text" placeholder="請輸入帳號"  />	 		
+	 	</p>	 	
+	 	<p>
+	 		密碼:<input type="password" name="" placeholder="輸輸入密碼">
+	 	</p>
+	 	<!-- 
+			透過name設定群組
+			checked : 被選擇的
+	 	 -->
+	 	<p>
+	 		<input type="radio" name="sex" />男
+	 		<input type="radio" name="sex" checked="checked" />女
+	 	</p>
+	 	<p>
+	 		<input type="checkbox" name="like" checked="checked" />吃
+	 		<input type="checkbox" name="like" />喝
+	 		<input type="checkbox" name="like" />拉
+	 		<input type="checkbox" name="like" />撒
+	 		<input type="checkbox" name="like" />睡
+	 	</p>
+		<p>
+		 	<select>
+		 		<option>台北</option>
+		 		<option>台中</option>
+		 		<option>台南</option>
+				<option>高雄</option>
+				<option>屏東</option>	 		
+		 	</select>
+		</p>
+
+		<input type="button" name="button" value="按鈕" />
+		<input type="submit" name="submit" />
+		<input type="reset" name="">
+	 </form>
+</body>
+</html>

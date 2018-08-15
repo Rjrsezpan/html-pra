@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表格(單元格合併)</title>
+</head>
+<body>
+	<!-- 5行四列
+		colspan : 合併列
+		rowsapn : 合併行
+	 -->
+	 <table width="300" height="200" border="1" cellspacing="0" bordercolor="gray" align="center">
+	 	<tr>
+	 		<td rowspan="2">1</td>
+	 		<td colspan="2" align="center">2</td>
+	 		<!-- <td>3</td> -->
+	 		<td>4</td>
+	 	</tr>
+	 	<tr>
+	 		<!-- <td>1</td> -->
+	 		<td>2</td>
+	 		<td>3</td>
+	 		<td rowspan="3">4</td>
+	 	</tr>
+	 	<tr>
+	 		<td>1</td>
+	 		<td>2</td>
+	 		<td>3</td>
+	 		<!-- <td>4</td> -->
+	 	</tr>
+	 	<tr>
+	 		<td colspan="3">1</td>
+	 		<!-- <td>2</td>
+	 		<td>3</td> -->
+	 		<td>4</td>
+	 	</tr>
+	 	<tr>
+	 		<td>1</td>
+	 		<td>2</td>
+	 		<td>3</td>
+	 		<!-- <td>4</td> -->
+	 	</tr>
+	 </table>
+</body>
+</html>
