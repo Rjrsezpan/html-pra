@@ -79,15 +79,142 @@
 #banner {
     width: 999px;
     height: 464px;
-    background: red;
     margin: 0 auto;
 }
 
 #news {
     width: 999px;
     height: 547px;
-    background: silver;
     margin: 0 auto;
+}
+
+#news .news-1 {
+    width: 999px;
+    height: 243px;
+    background: pink;
+}
+
+#news .news-1 .section1 {
+    /*width: 500px;*/
+    width: 454px;
+    height: 243px;
+    background: white;
+    float: left;
+    padding-left: 20px;
+    padding-right: 26px;
+}
+
+#news .news-1 .section1 h3 {
+    height: 84px;
+    line-height: 84px;
+    font-size: 19px;
+}
+
+#news .news-1 .section1 ul li {
+    list-style: inside square;
+    height: 24px;
+    line-height: 24px;
+    width: 454px;
+}
+
+#news .news-1 .section1 ul li a {
+    /*float: left;*/
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 12px;
+}
+
+#news .news-1 .section1 ul li span {
+    float: right;
+    color: #aeaeae;
+}
+
+#news .news-1 .section2 {
+    /*width: 241px;*/
+    width: 215px;
+    height: 243px;
+    background: #f1f1f1;
+    float: left;
+    padding-left: 26px;
+}
+
+#news .news-1 .section2 h3 {
+    line-height: 94px;
+    font-size: 19px;
+}
+
+#news .news-1 .section2 .info1 {
+    line-height: 26px;
+    font-size: 13px;
+    width: 124px;
+    color: #515151;
+}
+
+#news .news-1 .section2 .info2 {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 12px;
+    color: #acacac;
+}
+
+#news .news-1 .section3 {
+    width: 233px;
+    height: 243px;
+    background: #fbfbfb url("../image/bg.png") no-repeat 165px 122px;
+    float: left;
+    padding-left: 25px;
+}
+
+#news .news-1 .section3 h3 {
+    line-height: 82px;
+    font-size: 19px;
+}
+
+#news .news-1 .section3 p {
+    width: 180px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #5b5b5b;
+    margin-bottom: 42px;
+}
+
+#news .news-1 .section3 a {
+    /*margin-top: 42px;*/
+}
+
+#news .news-2 {
+    width: 959px;
+    /*height: 304px;*/
+    height: 240px;
+    padding: 30px 20px 34px 20px;
+}
+
+#news .news-2 h3 {
+    height: 35px;
+}
+
+#news .news-2 .content {
+    height: 204px;
+}
+
+#news .news-2 .content .smallBox {
+    width: 210px;
+    height: 204px;
+    float: left;
+    margin-right: 39px;
+}
+
+#news .news-2 .content .smallBox img {
+    margin-bottom: 18px;
+    float: left;
+}
+
+#news .news-2 .content .smallBox a {
+    line-height: 22px;
+    color: #555555;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
 }
 
 #footer {
@@ -95,4 +222,70 @@
     height: 332px;
     background: blanchedalmond;
     margin: 0 auto;
+}
+
+#footer .section1 {
+    /*width: 999px;*/
+    width: 959px;
+    /*height: 250px;*/
+    height: 220px;
+    background: #e5e5e5;
+    padding: 30px 20px 0px 20px;
+}
+
+#footer .section1 h3 {
+    font-size: 17px;
+    font-weight: normal;
+    color: #595959;
+    height: 28px;
+    padding-left: 12px;
+    border-bottom: 1px solid #c2c2c2;
+    margin-bottom: 20px;
+}
+
+#footer .section1 .view1 {
+    width: 452px;
+    height: 220px;
+    /*background: red;*/
+    float: left;
+}
+
+#footer .section1 ul {
+    float: left;
+}
+
+#footer .section1 ul li {
+    list-style: inside url("../image/li.png");
+    margin-bottom: 12px;
+}
+
+#footer .section1 ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #595959;
+}
+
+#footer .section1 .view2 {
+    width: 152px;
+    height: 220px;
+    float: left;
+}
+
+#footer .section1 .view3 {
+    width: 256px;
+    height: 220px;
+    /*background: purple;*/
+    float: left;
+}
+
+#footer .section1 .view3 img {
+    width: 200px;
+    height: 140px;
+    margin: 12px 0px 0px 30px;
+}
+
+#footer .section2 {
+    width: 999px;
+    height: 82px;
+    background: pink;
 }
