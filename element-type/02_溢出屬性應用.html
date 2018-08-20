@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02_溢出屬性應用</title>
+    <style type="text/css">
+        .view1 {
+            width: 300px;
+            height: 200px;
+            background: red;
+            margin: 30px;
+        }
+
+        .view2 {
+            width: 300px;
+            height: 200px;
+            background: blue;
+            margin: 50px;
+        }
+
+        .box {
+            width: 500px;
+            height: 500px;
+            background: red;
+            /*透過overFlow ，避免受到小盒子的影響*/
+            overflow: hidden;
+        }
+
+        .smallBox {
+            width: 300px;
+            height: 300px;
+            background: blue;
+            /*垂直方向沒有生效，且大盒子受到影響*/
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+<!--問題1 上下都有margin時，取較大的值。
+    解決方式 : 透過Float
+-->
+<!--<div class="view1"></div>-->
+<!--<div class="view2"></div>-->
+<div class="box">
+    <div class="smallBox"></div>
+</div>
+</body>
+</html>

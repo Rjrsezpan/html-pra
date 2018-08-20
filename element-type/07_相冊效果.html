@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07_相冊效果</title>
+    <style type="text/css">
+        .box {
+            width: 884px;
+            height: 400px;
+            background: url("image/bg.gif") no-repeat;
+            margin: 0 auto;
+        }
+
+        /*圖片會等比列縮放*/
+        .box img {
+            width: 65px;
+            height: 400px;
+            float: left;
+            border-right: white solid 2px;
+        }
+
+        .box img:hover{
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <!--行內元素，行內塊元素預設會有間距-->
+    <img src="image/child1.jpg"/>
+    <img src="image/child2.jpg"/>
+    <img src="image/child3.jpg"/>
+    <img src="image/child4.jpg"/>
+    <img src="image/child5.jpg"/>
+</div>
+</body>
+</html>

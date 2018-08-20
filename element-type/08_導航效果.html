@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08_導航效果</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            width: 1000px;
+            height: 42px;
+            background: #fdaf17;
+            margin: 50px auto 0px;
+        }
+
+        .box li {
+            float: left;
+            list-style: none;
+            border-right: 1px solid gray;
+        }
+
+        .box li a {
+            text-decoration: none;
+            color: gray;
+            padding: 0px 50px;
+            height: 37px;
+            line-height: 37px;
+            background: url("image/bg2.png");
+            display: block;
+        }
+
+        .box li a:hover {
+            background: #fdaf17;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Potfolio</a></li>
+        <li style="border: none"><a href="#">Contact us</a></li>
+    </ul>
+</div>
+</body>
+</html>

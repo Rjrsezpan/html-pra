@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>14_垂直居中</title>
+    <style type="text/css">
+        p {
+            text-align: center;
+        }
+
+        p img {
+            vertical-align: top;
+        }
+
+        .box {
+            width: 400px;
+            height: 400px;
+            background: red;
+            text-align: center;
+        }
+
+        .box span {
+            height: 100%;
+            background: blue;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .box img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<p>段落標籤
+    <img src="pra.png"/>
+</p>
+
+<div class="box">
+    <span></span>
+    <!--顯示內容-->
+    <img src="pra.png">
+</div>
+</body>
+</html>
